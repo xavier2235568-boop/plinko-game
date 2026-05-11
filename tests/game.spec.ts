@@ -33,7 +33,7 @@ test.describe('Balance', () => {
 
     await page.goto('/');
 
-    await expect(page.getByText('200.00')).toBeVisible();
+    await expect(page.getByText('200000000000000.00')).toBeVisible();
   });
 });
 
